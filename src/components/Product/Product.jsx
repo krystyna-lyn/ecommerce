@@ -3,12 +3,35 @@ import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } fro
 import { AddShoppingCart } from '@mui/icons-material';
 
 
-const Product = () => {
+
+
+const Product = ({ product }) => {
+
   return (
-    <Card>
-      <CardMedia>
-        
-      </CardMedia>
+    <Card sx={{ maxWidth: '100%' }}>
+      <CardMedia sx={{ height: '0', paddingTop: '56,25%' }} image='' title={product.name} />
+      <CardContent>
+        <div sx={{
+          display: 'flex',
+          justifyContent: 'space-between'
+        }}>
+          <Typography gutterBottom variant="h5" component="h2">
+            {product.name}
+          </Typography>
+          <Typography gutterBottom variant="h5" component="h2">
+
+          </Typography>
+        </div>
+        <Typography dangerouslySetInnerHTML={{ __html: product.description }} variant="body2" color="textSecondary" component="p" />
+      </CardContent>
+      <CardActions disableSpacing sx={{
+        display: 'flex',
+        justifyContent: 'flex-end'
+      }}>
+        <IconButton aria-label="Add to Cart">
+          <AddShoppingCart />
+        </IconButton>
+      </CardActions>
     </Card>
   )
 }
