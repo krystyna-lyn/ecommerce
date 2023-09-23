@@ -22,7 +22,7 @@ const Product = ({ product }) => {
 
           </Typography>
         </div>
-        <Typography dangerouslySetInnerHTML={{ __html: product.description }} variant="body2" color="textSecondary" component="p" />
+        <Typography variant="body2" color="textSecondary" component="p" />
       </CardContent>
       <CardActions disableSpacing sx={{
         display: 'flex',
