@@ -1,0 +1,74 @@
+.appBar {
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.title {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.image {
+    margin-right: 10px;
+}
+
+.menuButton {
+    margin-right: 16px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.search:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.searchIcon {
+    padding: 0 8px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputRoot {
+    color: inherit;
+}
+
+.inputInput {
+    padding: 8px 8px 8px 0;
+    padding-left: calc(1em + 32px);
+    transition: width 0.3s ease;
+    width: 100%;
+}
+
+/* media queries for responsive styles */
+@media (min-width: 600px) {
+    .appBar {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .menuButton {
+        display: none;
+    }
+
+    .search {
+        width: auto;
+    }
+
+    .inputInput {
+        width: 20ch;
+    }
+}
