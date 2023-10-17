@@ -8,7 +8,7 @@ const Nav = () => {
       <nav className='flex justify-between items-center max-container'>
         <a>
           <img src={headerLogo} alt="logo"
-            className='m-0 w-[129px] h-[29px]' />
+            className='m-0 w-[260px] h-[200px]'/>
         </a>
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
           {
