@@ -1,5 +1,14 @@
-import { Hero, Footer, CustomerReviews, PopularProducts,Services,SpecialOffer,Subscribe,SuperQuality} from './sections/index';
-import  Nav  from './components/Nav';
+import { Nav } from "./components";
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from "./sections";
 
 const App = () => {
   return (
@@ -30,7 +39,7 @@ const App = () => {
         <Footer />
       </section>
     </main>
-  )
-}
+  );
+};
 
 export default App;
