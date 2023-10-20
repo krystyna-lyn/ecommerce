@@ -39,16 +39,16 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center mt-40 xl:min-h-screen max-xl:py-40'>
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
         <img
           src={bigShoeImg}
           alt='shoe colletion'
-          width={300}
-          height={202}
-          className='object-contain relative z-10 mb-20 '
+          width={400}
+          height={400}
+          className='object-contain relative z-10  '
         />
       
-        <div className='sm:gap-6 gap-4 ml-20 -bottom-[5%] sm:left-[10%] max-sm:px-6'>
+        <div className='sm:gap-6 gap-4 ml-10 -bottom-[5%] sm:left-[10%] max-sm:px-6'>
           {shoes.map((image, index) => (
             <div key={index}>
               <ShoeCard
