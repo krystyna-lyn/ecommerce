@@ -24,6 +24,10 @@
   .gold-color {
     color: #e4b763;
   }
+
+  .text-header{
+    font-size: 88px;
+  }
 }
 
 @layer utilities {
