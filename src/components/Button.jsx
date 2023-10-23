@@ -6,11 +6,12 @@ const Button = ({ label, iconUrl }) => {
       leading-none border-yellow-400 rounded-full"
     >
       {label}
-      <img
+      {iconUrl && <img
         src={iconUrl}
         alt='arrow right icon'
         className='ml-2 rounded-full bg-white w-5 h-5'
       />
+      }
     </button>
   )
 }
