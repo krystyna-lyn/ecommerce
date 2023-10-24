@@ -24,6 +24,9 @@
   .gold-color {
     color: #e4b763;
   }
+  .bg-gold-color {
+    background-color: #e4b763;
+  }
 
   .text-header{
     font-size: 88px;
