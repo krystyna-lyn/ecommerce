@@ -4,6 +4,7 @@ import ShoeCard from "./ShoeCard";
 import PopularProductCard from "./PopularProductCard";
 import ServiceCard from "./ServiceCard";
 import ReviewCard from "./ReviewCard";
+import ShoeDetails from "./ShoeDetails";
 
 
 export {
@@ -12,5 +13,6 @@ export {
     ShoeCard,
     PopularProductCard,
     ServiceCard,
-    ReviewCard
+    ReviewCard,
+    ShoeDetails
 }
