@@ -1,5 +1,5 @@
 import { headerLogo } from '../assets/images/index';
-import {hamburger} from '../assets/icons/index'
+import { hamburger } from '../assets/icons/index'
 import { navLinks } from '../constants';
 
 const Nav = () => {
@@ -8,7 +8,7 @@ const Nav = () => {
       <nav className='flex justify-between items-center max-container'>
         <a>
           <img src={headerLogo} alt="logo"
-            className='m-0 w-[129px] h-[59px]'/>
+            className='m-0 w-[129px] h-[59px]' />
         </a>
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
           {
